@@ -10,7 +10,7 @@ function loadjson(file){
     })
   })
 }
-var fetchedData=loadjson("data.json");
+var fetchedData=loadjson("json/data.json");
 fetchedData.then(data=>{
   console.log(data);
   mobile(data.details);
